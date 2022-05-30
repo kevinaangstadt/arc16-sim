@@ -1,0 +1,10 @@
+opam-version: "2.0"
+maintainer: "Kevin Angstadt <kevinaangstadt@gmail.com>"
+authors: "Kevin Angstadt <kevinaangstadt@gmail.com>"
+synopsis: "Dev dependencies"
+homepage: "https://github.com/kevinaangstadt/arc16-sim"
+bug-reports: "https://github.com/kevinaangstadt/arc16-sim/issues"
+depends: [
+  "ocaml-lsp-server"
+  "rtop"
+]

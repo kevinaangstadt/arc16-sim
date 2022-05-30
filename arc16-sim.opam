@@ -1,0 +1,20 @@
+opam-version: "2.0"
+name: "arc16-sim"
+version: "0.1a"
+synopsis: "ARC16 Simulator"
+description:  """
+Behaviorial simulator for the ARC16 16-bit ISA
+"""
+maintainer: "Kevin Angstadt <kevinaangstadt@gmail.com>"
+authors: "Kevin Angstadt <kevinaangstadt@gmail.com>"
+license: "BSD-3-Clause"
+homepage: "https://github.com/kevinaangstadt/arc16-sim"
+bug-reports: "https://github.com/kevinaangstadt/arc16-sim/issues"
+depends: [
+    "ocaml" 
+    "reason" {>= "3.8.0"}
+    "dune" {>= "2.9"} 
+    "sedlex" 
+    "yojson"
+]
+build: ["dune" "build" "-p" name "-j" jobs]

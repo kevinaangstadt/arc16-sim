@@ -1,0 +1,5 @@
+(executable
+ (name simulator)
+ (public_name arc16-sim)
+ (libraries )
+ (package arc16-sim))
